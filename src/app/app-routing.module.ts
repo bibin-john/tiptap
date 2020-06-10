@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 import { BasicComponent } from './core/components/views/basic/basic.component';
 import { MenuBubbleComponent } from './core/components/views/menu-bubble/menu-bubble.component';
 import { FloatingMenuComponent } from './core/components/views/floating-menu/floating-menu.component';
+import { ReadonlyComponent } from './core/components/views/readonly/readonly.component';
+import { TrailingParagraphComponent } from './core/components/views/trailing-paragraph/trailing-paragraph.component';
 
 
 const routes: Routes = [
@@ -23,6 +25,16 @@ const routes: Routes = [
   {
     path: 'floating-menu',
     component: FloatingMenuComponent,
+  }
+  ,
+  {
+    path: 'readonly',
+    component: ReadonlyComponent,
+  }
+  ,
+  {
+    path: 'trailing-paragraph',
+    component: TrailingParagraphComponent,
   }
 ];
 
