@@ -17,6 +17,7 @@ import { MenuComponent } from './core/components/menu/menu.component';
     MenuComponent
   ],
   imports: [
+    CoreModule,
     BrowserModule,
     AppRoutingModule
   ],
