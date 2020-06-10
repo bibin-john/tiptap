@@ -9,9 +9,14 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 })
 export class ReadonlyComponent implements OnInit {
   public Editor = ClassicEditor;
+  public isDisabled = false;
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleDisabled() {
+    this.isDisabled = !this.isDisabled
   }
 
 }
