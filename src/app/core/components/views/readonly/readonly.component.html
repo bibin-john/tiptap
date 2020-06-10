@@ -4,7 +4,7 @@
     <div class="editor">
         <input type="checkbox" id="editable" (click)="toggleDisabled()" />Editable
         <h2> {{ isDisabled ? 'Read Only' : 'Enabled editor' }}</h2>
-        <ckeditor  [editor]="Editor" [disabled]="isDisabled" data="<p>Read Only  Hey, try to select some text here. There will popup a menu for selecting some inline styles. Remember: you have full control about content and styling of this menu.</p>"></ckeditor>
+        <ckeditor  [editor]="Editor" [disabled]="isDisabled" data="<p>  Hey, try to edit some text here. There will popup a menu for selecting some inline styles. Remember: you have full control about content and styling of this menu.</p>"></ckeditor>
     
     </div>
 
